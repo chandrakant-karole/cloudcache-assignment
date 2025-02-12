@@ -29,7 +29,7 @@ export default function NavigationBar() {
     ];
     return (
         <>
-            <Navbar onMenuOpenChange={setIsMenuOpen} classNames={{"wrapper":"max-w-[1440px]"}}>
+            <Navbar onMenuOpenChange={setIsMenuOpen} classNames={{ "wrapper": "max-w-[1440px]" }}>
                 <NavbarContent>
                     <NavbarMenuToggle
                         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -49,12 +49,17 @@ export default function NavigationBar() {
                     </NavbarItem>
                     <NavbarItem isActive>
                         <Link aria-current="page" href="#">
-                            Customers
+                            Mission
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
                         <Link color="foreground" href="#">
-                            Integrations
+                            About
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link color="foreground" href="#">
+                            Testimonial
                         </Link>
                     </NavbarItem>
                 </NavbarContent>

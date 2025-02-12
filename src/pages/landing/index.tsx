@@ -2,6 +2,7 @@ import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
 import FeatCards from "./components/feature-cards/FeatCards";
 import OurMission from "./components/our-mission/OurMission";
+import Testimonials from "./components/testimonials/Testimonials";
 
 export default function LandingIndex() {
     return (
@@ -10,6 +11,7 @@ export default function LandingIndex() {
             <FeatCards />
             <OurMission />
             <About />
+            <Testimonials/>
         </div>
     )
 }
