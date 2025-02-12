@@ -29,7 +29,7 @@ export default function NavigationBar() {
     ];
     return (
         <>
-            <Navbar onMenuOpenChange={setIsMenuOpen}>
+            <Navbar onMenuOpenChange={setIsMenuOpen} classNames={{"wrapper":"max-w-[1440px]"}}>
                 <NavbarContent>
                     <NavbarMenuToggle
                         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
