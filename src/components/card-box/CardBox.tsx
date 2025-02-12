@@ -1,22 +1,19 @@
-import { Card, CardHeader, CardBody, CardFooter } from "@heroui/react";
-export default function CardBox() {
+import { Card, CardHeader, CardBody } from "@heroui/react";
+import { CardBoxPropType } from "./card-box.types";
+
+export default function CardBox({ title, type, description }: CardBoxPropType) {
     return (
         <>
-            <Card className="max-w-[400px]">
+            <Card className="max-w-[400px] min-h-[200px]">
                 <CardHeader className="flex gap-3">
                     <div className="flex flex-col">
-                        <p className="text-lg font-medium">Card Title</p>
-                        <p className="text-small text-default-500">Type</p>
+                        <p className="text-lg font-medium">{title}</p>
+                        <p className="text-small text-default-500">{type}</p>
                     </div>
                 </CardHeader>
                 <CardBody>
-                    <p className="text-default-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis error voluptatem sed blanditiis deserunt sint adipisci amet cumque.</p>
+                    <p className="text-default-600">{description}</p>
                 </CardBody>
-                {/* <CardFooter>
-                    <Link href="https://github.com/heroui-inc/heroui">
-                        Read more
-                    </Link>
-                </CardFooter> */}
             </Card>
         </>
     )

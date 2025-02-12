@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Quantum Entanglement for Beginners",
+      "type": "Science",
+      "description": "A simplified explanation of quantum entanglement, its implications, and potential applications."
+    },
+    {
+      "title": "The Art of Baking Sourdough",
+      "type": "Cooking",
+      "description": "A comprehensive guide to baking delicious sourdough bread at home, from starter to loaf."
+    },
+    {
+      "title": "Exploring the Amazon Rainforest",
+      "type": "Travel",
+      "description": "An immersive journey through the Amazon rainforest, discovering its diverse flora and fauna."
+    },
+    {
+      "title": "Introduction to Machine Learning",
+      "type": "Technology",
+      "description": "A beginner-friendly introduction to machine learning concepts and algorithms."
+    },
+    {
+      "title": "The History of Jazz Music",
+      "type": "Music",
+      "description": "A chronological exploration of the evolution of jazz music, from its roots to its modern forms."
+    },
+      {
+      "title": "Creative Writing Workshop",
+      "type": "Writing",
+      "description": "A workshop designed to unleash your creativity and improve your writing skills through various exercises and prompts."
+    }
+  ]
